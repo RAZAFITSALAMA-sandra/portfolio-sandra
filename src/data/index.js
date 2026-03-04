@@ -29,7 +29,7 @@ export const SKILLS_DATA = {
   ],
   Tools: [
     { name: "Git & GitHub",     pct: 90, icon: "⊙",  color: "#F05032", years: "4 yrs" },
-    { name: "Docker",           pct: 70, icon: "◻",  color: "#2496ED", years: "1 yr" },
+    { name: "Docker",           pct: 70, icon: "◻",  color: "#2496ED", years: "1 yr"  },
     { name: "Figma",            pct: 75, icon: "◈",  color: "#F24E1E", years: "2 yrs" },
     { name: "Postman",          pct: 88, icon: "◉",  color: "#FF6C37", years: "3 yrs" },
     { name: "Linux / Terminal", pct: 80, icon: "⊞",  color: "#FCC624", years: "3 yrs" },
@@ -87,7 +87,7 @@ export const PROJECTS_DATA = [
 ];
 
 // ═══════════════════════════════════════════
-// TRANSLATIONS - AVEC VOS INFORMATIONS
+// TRANSLATIONS
 // ═══════════════════════════════════════════
 
 export const TRANSLATIONS = {
@@ -108,9 +108,16 @@ export const TRANSLATIONS = {
       title: ["Du code qui a", "du sens."],
       p1: "Je suis Sandra Laëticia, développeuse full stack basée à Madagascar. Je conçois des applications modernes du frontend jusqu'à l'API — avec attention à la performance, l'accessibilité et l'expérience utilisateur.",
       p2: "Chaque projet est une opportunité de créer quelque chose qui dure. Je travaille avec précision, je communique avec clarté.",
-      s1n:"3+", s1l:"Ans d'expérience",
-      s2n:"20+", s2l:"Projets livrés",
-      s3n:"100%", s3l:"Satisfaction client",
+      s1n: "3+",  s1l: "Ans d'expérience",
+      s2n: "20+", s2l: "Projets livrés",
+      s3n: "100%",s3l: "Satisfaction client",
+      values: [
+        { icon: "◎", title: "Code propre",          desc: "Chaque ligne compte. J'écris du code lisible, maintenable et scalable — pas juste du code qui fonctionne." },
+        { icon: "◈", title: "Communication claire",  desc: "Je tiens mes clients informés à chaque étape. Pas de surprises, des livrables précis et dans les délais." },
+        { icon: "⊙", title: "Orientée résultats",    desc: "Mon objectif : que votre produit fonctionne bien et serve vos utilisateurs, pas juste qu'il soit joli." },
+      ],
+      servicesLabel: "Services",
+      services: ["Développement Fullstack", "API REST / GraphQL", "Applications React", "Backend Node.js", "Intégration UI/UX", "Mission Freelance"],
     },
     skills: {
       label: "02 · Compétences",
@@ -121,7 +128,7 @@ export const TRANSLATIONS = {
     },
     projects: {
       label: "03 · Projets",
-      title: ["Travaux", "sélectionnés"],
+      title: ["Mes", "réalisations"],
       code: "Code",
       demo: "Demo",
       featured: "Featured",
@@ -141,6 +148,7 @@ export const TRANSLATIONS = {
     },
     footer: "Conçu & développé par Sandra Laëticia",
   },
+
   en: {
     nav: ["About", "Skills", "Projects", "Contact"],
     navIds: ["about", "skills", "projects", "contact"],
@@ -158,9 +166,16 @@ export const TRANSLATIONS = {
       title: ["Code that", "means something."],
       p1: "I'm Sandra Laëticia, a full stack developer based in Madagascar. I build modern applications from frontend to API — with focus on performance, accessibility and user experience.",
       p2: "Every project is a chance to create something that lasts. I work with precision, I communicate with clarity.",
-      s1n:"3+", s1l:"Years exp.",
-      s2n:"20+", s2l:"Projects done",
-      s3n:"100%", s3l:"Satisfaction",
+      s1n: "3+",  s1l: "Years exp.",
+      s2n: "20+", s2l: "Projects done",
+      s3n: "100%",s3l: "Satisfaction",
+      values: [
+        { icon: "◎", title: "Clean code",           desc: "Every line matters. I write readable, maintainable and scalable code — not just code that works." },
+        { icon: "◈", title: "Clear communication",  desc: "I keep clients informed at every step. No surprises, precise deliverables and on-time delivery." },
+        { icon: "⊙", title: "Result-driven",        desc: "My goal: your product works well and serves your users — not just looks good." },
+      ],
+      servicesLabel: "Services",
+      services: ["Fullstack Development", "REST / GraphQL API", "React Applications", "Node.js Backend", "UI/UX Integration", "Freelance Mission"],
     },
     skills: {
       label: "02 · Skills",
@@ -171,7 +186,7 @@ export const TRANSLATIONS = {
     },
     projects: {
       label: "03 · Projects",
-      title: ["Selected", "work"],
+      title: ["My", "work"],
       code: "Code",
       demo: "Demo",
       featured: "Featured",
